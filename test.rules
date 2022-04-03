@@ -1,0 +1,5 @@
+alert tcp any any -> any/8080(msg:"TEST ALERT";
+                              flags:A;
+                              content:"I am IDS Homework 1";
+                              offset:100;
+                              depth:200;)
